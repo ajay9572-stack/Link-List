@@ -24,6 +24,7 @@ public class LL2{
             newNode.next = head;
             head = newNode;
         }
+        size++;
       }
 
      public static void main(String[] args) {
