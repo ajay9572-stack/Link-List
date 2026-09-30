@@ -24,7 +24,16 @@ public class LL3 {
         }
         size++;
        }
+       public void printList(){
+          node temp = head;
+          while(temp != null){
+            System.out.println(temp.data);
+            temp = temp.next;
+          }
+       }
     public static void main(String[] args) {
-        
+        LL3 myList = new LL3();
+        myList.insertAttail(23);
+        myList.printList();
     }
 }
