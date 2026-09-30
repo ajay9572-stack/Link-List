@@ -3,11 +3,11 @@ public class LL1{
 
     static class node{
         int data;
-        int next;
+        node next;
 
         node(int data){
             this.data = data;
-            this.next = next;
+            this.next = null;
         }
     }
 
@@ -22,6 +22,6 @@ public class LL1{
     }
 
      public static void main(String[] args) {
-        
+        LL1 myList = new LL1();
      }
 }
