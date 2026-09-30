@@ -26,8 +26,23 @@ public class LL2{
         }
         size++;
       }
+      public void printList(){
+        node temp = head;
+        while(temp != null){
+            System.out.print(temp.data+ " ");
+            temp = temp.next;
+        }
+      }
 
      public static void main(String[] args) {
+        LL2 myList = new LL2();
+        myList.insertAtHead(10);
+        myList.insertAtHead(20);
+        myList.insertAtHead(30);
+        myList.insertAtHead(40);
+        myList.insertAtHead(50);
+        myList.insertAtHead(60);
+        myList.printList();
         
      }
 }
