@@ -9,7 +9,6 @@ public class LL6 {
             this.next = null;
         }
     }
-
     private node head;
     private node tail;
     private int data;
@@ -25,7 +24,6 @@ public class LL6 {
         }
           return false;
     }
-
     private void printList(){
         node temp = head;
         while(temp != null){
