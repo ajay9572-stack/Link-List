@@ -24,6 +24,7 @@ public class LL5{
     }
 
     public static void main(String[] args) {
-        
+        LL5 myList = new LL5();
+        myList.tranversal();
     }
 }
