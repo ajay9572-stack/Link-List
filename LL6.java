@@ -33,7 +33,6 @@ public class LL6 {
     }
     public static void main(String[] args) {
         LL6 myList = new LL6();
-        myList.searchList(40);
-        myList.printList();
+       System.out.println(myList.searchList(40));
     }
 }

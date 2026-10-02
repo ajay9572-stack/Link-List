@@ -37,7 +37,6 @@ public class LL7 {
     }
     public static void main(String[] args) {
         LL7 myList = new LL7();
-        myList.searchPosition(40);
-        myList.printList();
+        System.out.println(myList.searchPosition(40));
     }
 }
