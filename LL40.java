@@ -1,4 +1,4 @@
-
+//print list of cdll
 public class LL40{
     static class Node{
         int data;
