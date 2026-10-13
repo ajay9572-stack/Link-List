@@ -1,4 +1,4 @@
-
+// delete at head
 public class LL41{
     static class Node{
         int data;
