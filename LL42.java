@@ -1,4 +1,4 @@
-
+//delete at tail
 public class LL42{
     static class Node{
         int data;
