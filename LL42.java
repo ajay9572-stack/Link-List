@@ -63,6 +63,7 @@ public class LL42{
         list.insertAtTail(20);
         list.insertAtTail(30);
         list.insertAtTail(40);
+        list.printList();
         list.deleteTail();
         list.printList();
     }
