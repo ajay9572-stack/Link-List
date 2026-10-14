@@ -55,6 +55,7 @@ public class LL42{
             System.out.print(temp.data+" ");
             temp=temp.next;
         }while(temp!=head);
+        System.out.println();
     }
 
     public static void main(String[] args){
