@@ -1,6 +1,5 @@
-
-
 public class LL43{
+//delete at position 
     static class Node{
         int data;
         Node prev;
