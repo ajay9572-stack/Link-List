@@ -78,6 +78,7 @@ public class LL43{
         list.insertAtTail(30);
         list.insertAtTail(40);
         list.insertAtTail(50);
+        list.printList();
         list.deleteAtPosition(3);
         list.printList();
     }
